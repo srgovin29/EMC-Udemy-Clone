@@ -1,0 +1,178 @@
+/* step6 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* step7 */
+style{
+
+    font-family: "Gabarito", sans-serif;
+}
+
+/* step8 */
+.navbar{
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* step5 */
+    border-bottom: solid black 1px;;
+
+    /* Step14 */
+    gap: 10px;
+
+    /* step19 */
+    align-items: center;
+}
+
+/* step9 */
+.navbar__section1__title{
+    color: #A435F0;
+}
+
+/* step12 */
+.navbar__section2{
+    padding: 10px;
+    border: solid black 1px;;
+    border-radius: 30px;
+    width: 60%;
+    
+    /* step14; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}  
+
+/* step13 */
+.navbar__section2 input{
+    border: none;
+    width: 100%;
+    margin: 5px;
+    font-size: 16px;
+
+    /* study 6.2 Min: 38 */
+    align-items: center;
+} 
+
+/* step15 */
+.navbar__section2 input:focus{
+    outline: none;
+}
+
+/* step18 */
+.navbar__section3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* step21 */
+.catagories{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.catagories p{
+    background-color: #A435F0;
+    /* padding: 10px; */
+    color: white;
+    border-radius: 30px;;
+
+}
+
+/* step23 */
+.images img{ 
+    padding: 10px;
+    width: 100%;
+}
+
+/* step25 */
+
+.course-card{
+    /* width: 20% */
+    /* Width 20% will be occupied whatever space we have. it wont let the element to display down/
+    so set width in pixel */
+    width: 250px;
+}
+
+/* Step26 */
+.course-card img{
+    width: 100%;
+
+    /* step29 */
+    height: 50%;
+}
+
+/* step28 */
+.recommended-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+/* step30 */
+.topics{
+    padding: 10px;
+
+}
+
+.topics__container{
+    display: flex;
+    margin-top: 5%;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p{
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+
+/* step32 */
+.popular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin: 20px;
+}
+
+/* step33 */
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one p{
+    margin: 20px;
+}
+
