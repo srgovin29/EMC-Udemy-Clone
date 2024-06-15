@@ -26,6 +26,16 @@ style{
 
     /* step19 */
     align-items: center;
+
+    /* Step 34 from 8.5 */
+    position: sticky;
+    top: 0;
+
+    /* step 37 */
+    background-color: white;
+
+    /* step 41: */
+    z-index: 1;
 }
 
 /* step9 */
@@ -44,6 +54,9 @@ style{
     display: flex;
     gap: 10px;
     align-items: center;
+
+    /* step 36 */
+    background-color: white;
 }  
 
 /* step13 */
@@ -55,6 +68,9 @@ style{
 
     /* study 6.2 Min: 38 */
     align-items: center;
+
+    /* step 35 */
+    background-color: transparent;
 } 
 
 /* step15 */
@@ -67,6 +83,31 @@ style{
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+/* step 40: section 8.5 */
+/* My leanring pop-up */
+
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+
+.mylearning__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    width: 100px;
+    top: 150%;
+    padding: 20px;
+    right: 0;
+    display: none;
+
+}
+
+/* step 42 */
+.mylearning:hover .mylearning__popup{
+    display: block;
 }
 
 /* step21 */
@@ -90,6 +131,20 @@ style{
 .images img{ 
     padding: 10px;
     width: 100%;
+}
+
+/* step 38 */
+.images{
+    position: relative;
+}
+.images__offer{
+    background-color: white;
+    border: solid black 2px;
+    width: 400px;
+    padding: 2%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
 }
 
 /* step25 */
